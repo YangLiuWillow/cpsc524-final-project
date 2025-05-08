@@ -1,3 +1,6 @@
 [submodule "ThunderGP"]
 	path = ThunderGP
 	url = https://github.com/Xtra-Computing/ThunderGP.git
+[submodule "Vitis-Tutorials"]
+	path = Vitis-Tutorials
+	url = https://github.com/Xilinx/Vitis-Tutorials.git
