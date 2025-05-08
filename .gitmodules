@@ -4,3 +4,6 @@
 [submodule "Vitis-Tutorials"]
 	path = Vitis-Tutorials
 	url = https://github.com/Xilinx/Vitis-Tutorials.git
+[submodule "GraFlex"]
+	path = GraFlex
+	url = https://github.com/eecysu/GraFlex.git
