@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="shortest" xd:componentRef="shortest" xd:initiationInterval="x" xd:clockPeriod="10" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="*(column_indices)" xd:originalName="column_indices" xd:direction="inout" xd:interfaceRef="m_axi_input_r" xd:busTypeRef="aximm" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="column_indices" xd:originalName="column_indices" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:offset="0x10" xd:dataWidth="32" xd:aximmInterfaceRef="m_axi_input_r"/>
+  <xd:arg xd:name="*(row_offsets)" xd:originalName="row_offsets" xd:direction="inout" xd:interfaceRef="m_axi_input_r" xd:busTypeRef="aximm" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="row_offsets" xd:originalName="row_offsets" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:offset="0x1C" xd:dataWidth="32" xd:aximmInterfaceRef="m_axi_input_r"/>
+  <xd:arg xd:name="*(visited)" xd:originalName="visited" xd:direction="inout" xd:interfaceRef="m_axi_output_r" xd:busTypeRef="aximm" xd:dataWidth="32" xd:bufferDirection="inout"/>
+  <xd:arg xd:name="visited" xd:originalName="visited" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:offset="0x28" xd:dataWidth="32" xd:aximmInterfaceRef="m_axi_output_r"/>
+  <xd:arg xd:name="*(queue)" xd:originalName="queue" xd:direction="inout" xd:interfaceRef="m_axi_output_r" xd:busTypeRef="aximm" xd:dataWidth="32" xd:bufferDirection="inout"/>
+  <xd:arg xd:name="queue" xd:originalName="queue" xd:direction="in" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:offset="0x34" xd:dataWidth="32" xd:aximmInterfaceRef="m_axi_output_r"/>
+  <xd:arg xd:name="src" xd:originalName="src" xd:direction="in" xd:interfaceRef="s_axi_sqrt" xd:busTypeRef="axilite" xd:offset="0x10" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="4299" xd:FF="2951" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

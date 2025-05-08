@@ -1,0 +1,13 @@
+<pragmas>
+<pragma file="../bfs_kernel.cpp" line="29" pragmaType="pipeline" parentfunction="shortest" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="../bfs_kernel.cpp" line="9" pragmaType="interface" parentfunction="shortest" mode="m_axi" port="column_indices" bundle="input" offset="slave" name="" depth="27444" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1"/>
+<pragma file="../bfs_kernel.cpp" line="10" pragmaType="interface" parentfunction="shortest" mode="m_axi" port="visited" bundle="output" offset="slave" name="" depth="4721" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1"/>
+<pragma file="../bfs_kernel.cpp" line="11" pragmaType="interface" parentfunction="shortest" mode="m_axi" port="queue" bundle="output" offset="slave" name="" depth="4721" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1"/>
+<pragma file="../bfs_kernel.cpp" line="12" pragmaType="interface" parentfunction="shortest" mode="m_axi" port="row_offsets" bundle="input" offset="slave" name="" depth="4722" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1"/>
+<pragma file="../bfs_kernel.cpp" line="14" pragmaType="interface" parentfunction="shortest" mode="s_axilite" port="column_indices" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../bfs_kernel.cpp" line="15" pragmaType="interface" parentfunction="shortest" mode="s_axilite" port="row_offsets" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../bfs_kernel.cpp" line="16" pragmaType="interface" parentfunction="shortest" mode="s_axilite" port="visited" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../bfs_kernel.cpp" line="17" pragmaType="interface" parentfunction="shortest" mode="s_axilite" port="queue" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../bfs_kernel.cpp" line="18" pragmaType="interface" parentfunction="shortest" mode="s_axilite" port="src" bundle="sqrt" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../bfs_kernel.cpp" line="19" pragmaType="interface" parentfunction="shortest" mode="ap_ctrl_hs" port="return" name=""/>
+</pragmas>

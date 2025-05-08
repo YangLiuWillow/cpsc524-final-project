@@ -1,0 +1,45 @@
+INFO: [HLS 200-10] Running '/home/wuyue/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'wuyue' on host 'wuyue-i9-9820X' (Linux_x86_64 version 5.4.0-214-generic) on Wed May 07 22:16:39 EDT 2025
+INFO: [HLS 200-10] On os Ubuntu 20.04.6 LTS
+INFO: [HLS 200-10] In directory '/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls'
+Sourcing Tcl script '/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source /home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project cpsc520-bfs-unpartitioned-hls 
+INFO: [HLS 200-10] Opening project '/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls'.
+INFO: [HLS 200-1510] Running: set_top shortest 
+INFO: [HLS 200-1510] Running: add_files ../bfs.h 
+INFO: [HLS 200-10] Adding design file '../bfs.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../bfs_kernel.cpp 
+INFO: [HLS 200-10] Adding design file '../bfs_kernel.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../bfs.h 
+INFO: [HLS 200-10] Adding test bench file '../bfs.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../bfs_test.cpp 
+INFO: [HLS 200-10] Adding test bench file '../bfs_test.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../edge_list.txt 
+INFO: [HLS 200-10] Adding test bench file '../edge_list.txt' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xczu7ev-ffvc1156-2-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xczu7ev-ffvc1156-2-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script '/home/wuyue/.Xilinx/Vivado/Vivado_init.tcl'
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/wuyue/Xilinx/Vivado/2022.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Wed May  7 22:16:57 2025...
+INFO: [HLS 200-802] Generated output file cpsc520-bfs-unpartitioned-hls/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 11.25 seconds. CPU system time: 1.13 seconds. Elapsed time: 19.48 seconds; current allocated memory: -1024.273 MB.
+INFO: [HLS 200-112] Total CPU user time: 13.82 seconds. Total CPU system time: 1.69 seconds. Total elapsed time: 21.28 seconds; peak allocated memory: 472.066 MB.

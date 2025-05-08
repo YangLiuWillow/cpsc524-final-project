@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed May  7 22:16:43 2025
+# Process ID: 154170
+# Current directory: /home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls/solution1/impl/ip/vivado.log
+# Journal file: /home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls/solution1/impl/ip/vivado.jou
+# Running On: wuyue-i9-9820X, OS: Linux, CPU Frequency: 3094.650 MHz, CPU Physical cores: 10, Host memory: 33322 MB
+#-----------------------------------------------------------
+Sourcing tcl script '/home/wuyue/.Xilinx/Vivado/Vivado_init.tcl'
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/wuyue/Xilinx/Vivado/2022.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Wed May  7 22:16:57 2025...

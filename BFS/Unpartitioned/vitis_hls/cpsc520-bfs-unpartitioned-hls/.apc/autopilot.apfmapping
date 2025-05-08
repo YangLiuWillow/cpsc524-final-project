@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="bfs_kernel.cpp" path="/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/bfs_kernel.cpp"/>
+    <originFiles name="bfs.h" path="/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/bfs.h"/>
+  </source>
+  <testbench>
+    <originFiles name="bfs_test.cpp" path="/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/bfs_test.cpp"/>
+    <originFiles name="edge_list.txt" path="/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/edge_list.txt"/>
+    <originFiles name="bfs.h" path="/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/bfs.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,42 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/wuyue/yangliu/cpsc520-final-project/BFS/Unpartitioned/vitis_hls/cpsc520-bfs-unpartitioned-hls/solution1/csynth.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=shortest" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=27444 port=column_indices offset=slave bundle=input" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=4721 port=visited offset=slave bundle=output" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=4721 port=queue offset=slave bundle=output" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=4722 port=row_offsets offset=slave bundle=input" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=column_indices" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=row_offsets" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=visited" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=queue" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=src bundle=sqrt" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../bfs_kernel.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shortest" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../bfs_kernel.cpp:36:29" msg_body="Loop 'traverse_neighbors' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="traverse_neighbors"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+
